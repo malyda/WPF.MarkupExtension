@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.MarkupExtension", "WPF.MarkupExtension\WPF.MarkupExtension.csproj", "{C76E942A-A9AB-4ACE-A65E-A81791B600CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C76E942A-A9AB-4ACE-A65E-A81791B600CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76E942A-A9AB-4ACE-A65E-A81791B600CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76E942A-A9AB-4ACE-A65E-A81791B600CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76E942A-A9AB-4ACE-A65E-A81791B600CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D8DE9F5-FE9B-4339-AC7B-8716C48CF920}
+	EndGlobalSection
+EndGlobal
