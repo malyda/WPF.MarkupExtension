@@ -5,8 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF.MarkupExtension"
              mc:Ignorable="d" 
-             Height="450" Width="800" Background="Red">
+             Background="Red">
     <Grid>
-            
+        <Button Click="Button_Click" Content="Show UC Property Value"/>
     </Grid>
 </UserControl>

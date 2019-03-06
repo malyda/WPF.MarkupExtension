@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
-        <Button local:CustomExtension.ItemProperty ="{Binding ItemBinding}" Click="Button_Click"></Button>
-        <local:CustomUC Property1="custom value"/>
+        <Button local:CustomExtension.ItemProperty ="{Binding ItemBinding}" Click="Button_Click" Height="100px"></Button>
+        <local:CustomUC Property2="custom value" Height="100px"/>
     </StackPanel>
 </Window>

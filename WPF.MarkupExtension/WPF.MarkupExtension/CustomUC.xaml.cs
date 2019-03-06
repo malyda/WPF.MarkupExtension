@@ -25,17 +25,22 @@ namespace WPF.MarkupExtension
             InitializeComponent();
         }
 
-        public string Property1
+        public string Property2
         {
             get { return (string)GetValue(Property1Property); }
             set { SetValue(Property1Property, value); }
         }
 
         public static readonly DependencyProperty Property1Property = DependencyProperty.Register(
-          "Property1",
+          "Property2",
           typeof(string),
           typeof(CustomUC),
-          new PropertyMetadata(false)
+          new PropertyMetadata("Default value")
       );
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ((Button)sender).Content = Property2;
+        }
     }
 }
