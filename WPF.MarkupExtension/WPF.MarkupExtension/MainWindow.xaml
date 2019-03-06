@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WPF.MarkupExtension"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <StackPanel>
         <Button local:CustomExtension.ItemProperty ="{Binding ItemBinding}" Click="Button_Click"></Button>
-    </Grid>
+        <local:CustomUC Property1="custom value"/>
+    </StackPanel>
 </Window>
